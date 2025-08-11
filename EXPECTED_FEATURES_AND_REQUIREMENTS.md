@@ -9,6 +9,7 @@ To build a modular, production-grade dental claims processing platform with auto
 
 ### 🧍 1. Patient Registration & Insurance Verification
 - Capture patient demographics and insurance info.
+- OCR for patient provided info
 - Real-time eligibility checks via clearinghouse API or RPA bot.
 - Auto-fill and validation of policy data.
 
@@ -16,6 +17,7 @@ To build a modular, production-grade dental claims processing platform with auto
 - Rich editor for procedure notes, teeth/surface tagging.
 - Image/X-ray upload.
 - Voice-to-note transcription and auto CDT code suggestions (AI).
+- OCR for clinic created notes/docs
 
 ### 🧾 3. Coding & Compliance Engine
 - Rule engine to validate CDT combinations.
@@ -35,16 +37,18 @@ To build a modular, production-grade dental claims processing platform with auto
 ### 💰 6. Payment & Reconciliation
 - Ingest ERA (835) files.
 - Auto-post insurance payments to patient ledger.
-- Handle partial payments and remainders.
+- Handle partial payments and remainders. 
 
 ### ❌ 7. Denials & Appeals
-- Classify denials using NLP.
+- Classify denials using NLP on Explanation of Benefits.
 - Generate appeal letters with supporting documentation.
 - Resubmit appeals with tracking.
 
 ### 🧠 8. AI Assist
 - NLP-based CDT prediction.
+- Mark-up X-ray based on clinic notes
 - Denial reason classifier.
+- Denied claim re-submission checklist
 - Pre-submission claim scorecard for risk detection.
 
 ### 🤖 9. RPA Automation
